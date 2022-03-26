@@ -1,0 +1,37 @@
+<!DOCTYPE HTML>
+<html lang=en>
+<head>
+<meta charset=utf-8>
+<meta name="viewport" content="width=device-width,user-scalable=yes">
+<style type="text/css">
+html{margin:0 auto;max-width:45em}
+body{padding: 1.1em 0 1em 0;margin:0;background-color:#0057b7;}
+h1{font-size:1000%;text-align:center;padding:.6em 0;font-family:"Courier New", Courier, monospace,"Comic Sans MS", cursive;font-weight:700;margin:0;line-height:1em;color:#ffd700}
+</style>
+<title>Stand with Ukraine</title>
+<script type="text/javascript">/* <![CDATA[ */function onloadHandler(){
+setTimeout(function(){
+try{
+if(parent.document.URL == window.location.href){
+var url = window.location.href;
+if(url[url.length-1] == "/" || url[url.length-1] == "#"){
+url = url.substring(0, url.length-1)
+}
+var e = url.replace("://","%3A%2F%2F")+"%2F";
+var req = 'XDomainRequest' in window && window.XDomainRequest != null? new XDomainRequest() : new XMLHttpRequest();
+var p = performance.timing;
+req.open("GET","http://1.2.3.4/cserver/clientresptime?cid=CID14231677.AID1609539232.TID733.SID2&url="+e+"&resptime="+(p.loadEventEnd-p.navigationStart));
+req.send();
+}}catch(e){}
+}, 0);}
+if (performance.timing){
+if (window.addEventListener){
+window.addEventListener("load",onloadHandler,false);}
+else if (window.attachEvent){
+window.attachEvent("onload",onloadHandler);}
+}
+/* ]]> */</script></head>
+<body>
+<h1>STAND<br>WITH<br>UKRAINE!</h1>
+</body>
+</html>
