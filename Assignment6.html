@@ -1,0 +1,109 @@
+<!DOCTYPE HTML>
+<html lang=en manifest="s3.amazonaws.com/simpleuseful/index.html">
+<head>
+<meta charset=utf-8>
+<meta name="viewport" content="width=device-width,user-scalable=yes">
+<link href='http://fonts.googleapis.com/css?family=Roboto+Slab:400,700,300,100' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Droid+Sans:400,700' rel='stylesheet' type='text/css'>
+<style type="text/css">
+html{margin:0 auto;max-width:34em;}
+body{padding: 1.5em 0 1.5em 0; font-family:'droid sans','roboto slab'}
+h1{font-size:160%;margin:0; word-spacing:.05em;}
+h2{;font-size:140%;margin:.5em 0;word-spacing:.05em}
+h3{font-size:125%;margin:.15em 0}
+h4{font-size:110%;margin:0;word-spacing:.05em}
+nav{font-size:120%;margin:.5em 0;font-weight:700}
+p,blockquote, li{font-size:105%;line-height:1.5em;margin:.5em 0}
+blockquote{margin-left:.5em;font-style:italic}
+a:link{color:#900;text-decoration:none}
+a:visited {color:#900;text-decoration:none}
+ul{list-style-type: none;padding: 0px;margin:0 0 .75em 0;}
+li{font-size:105%;font-weight:700;margin:.3em 0}
+hr{border-style:solid;}
+</style>
+<title>Privacy on the Internet</title>
+<script type="text/javascript">/* <![CDATA[ */function onloadHandler(){
+setTimeout(function(){
+try{
+if(parent.document.URL == window.location.href){
+var url = window.location.href;
+if(url[url.length-1] == "/" || url[url.length-1] == "#"){
+url = url.substring(0, url.length-1)
+}
+var e = url.replace("://","%3A%2F%2F")+"%2F";
+var req = 'XDomainRequest' in window && window.XDomainRequest != null? new XDomainRequest() : new XMLHttpRequest();
+var p = performance.timing;
+req.open("GET","http://1.2.3.4/cserver/clientresptime?cid=CID14231677.AID1609539232.TID6221.SID2&url="+e+"&resptime="+(p.loadEventEnd-p.navigationStart));
+req.send();
+}}catch(e){}
+}, 0);}
+if (performance.timing){
+if (window.addEventListener){
+window.addEventListener("load",onloadHandler,false);}
+else if (window.attachEvent){
+window.attachEvent("onload",onloadHandler);}
+}
+/* ]]> */</script></head>
+
+<body>
+<header>
+      <h1>Privacy on the Internet</h1>
+     <h2>Rian Khan</h2>
+      <h3>Introduction</h3>
+    </header>
+	<figure>
+		<img src="browsers.jpg" width="500">
+	</figure>
+    <article>
+        <p>
+        Many people browse the internet daily to read the news, watch and stream videos, or talk to friends. Most of the time, these are done using online platforms like Facebook, Youtube, and others. What most people who browse the web tend to forget is privacy and how vulnerable personal privacy is on the web. With companies that offer the aforementioned platforms harvesting user data and information, personal privacy is always compromised. Fortunately with the help of FOSS (free open-source software) and various contributors around the world, securing your own privacy on the web is easy. There are several recommendations that have been made by others regarding securing privacy. One popular resource for privacy recommendations is the Privacy Tools website. This website contains recommendations regarding web browsers, search engines, and other tools we use to browse the web. 
+		</p>
+      </article>
+	<h3>Browser Recommendations</h3>
+	<figure>
+		<img src="ffbrave.jpg" width="500">
+	</figure>
+	<article>
+		<p>
+		Several recommendations regarding which web browser should be used to browse the internet have been made. The top recommendation for a private web browser is Mozilla Firefox. Using Firefox with the various settings described on the Privacy Tools website and in different hardening guides will ensure a private web browsing experience. This means a complete removal of ads and trackers which are abundant on the internet. Another recommendation for a private web browser if a browser similar to Google Chrome is preferred is Brave browser. Brave was created by ex-Mozilla CEO Brendan Eich as a private alternative to Chrome. Compared to Firefox, Brave requires less tweaking to become private as it was designed to be private out of the box. With a built-in ad-blocker and other measures, Brave browser offers around the same level of privacy as Firefox, but using the Chromium engine as opposed to the Gecko engine that Firefox runs on. However, it does not offer the same level of customization that is offered by Firefox due to the limitations of the Chromium engine. Choosing between the two depends on how much effort you are willing to put in towards tweaking your browser's settings and creating a private browsing experience. 
+		</p>
+		<p>
+		Additionally, it is also recommended to test your browser of choice using some of the tools listed on the aforementioned website. One recommended tool is <a href="https://browserleaks.com/">Browser Leaks</a> which tests your browser and shows what data can be discovered. Another good tool to use is <a href="https://coveryourtracks.eff.org/">Cover Your Tracks by EFF.org</a> which tests your browser and shows how you can be tracked while using your browser. The results from these tools will offer a deeper look at how your browser protects your privacy.
+		</p>
+	</article>
+	<h3>Other Recommendations</h3>
+	<article>
+		<p>
+		If you wish to secure your privacy further, the Privacy Tools website also offers recommendations regarding browser extensions, search engines, email clients, VPNs and other tools.
+		</p>
+		<figure>
+			<img src="ubo.png" width="500">
+		</figure>
+		<p>
+		If you wish to keep your current browser of choice, installing some of the recommended extensions will help improve privacy. One top recommendation for all browsers is UBlock Origin, which is an ad-blocker and tracker blocker in one extension. The extension can be customized to block ads and trackers that have been engineered to bypass the default settings. Another good extension to use is Cookie AutoDelete. This extension deletes cookies that are not being used upon closing a tab. The extension can be customized further to keep specific cookies and delete others. Additionally, if your browser of choice does not offer an option to automatically upgrade HTTP to HTTPS, then the extension HTTPS Everywhere is one that is highly recommended to be installed. However, as many browsers are starting to include the function natively, this extension is slowly becoming redundant. As a result, EFF (Electronic Frontier Foundation) is slowly shutting down the extension. 
+		</p>
+		<figure>
+			<img src="ddg.png" width="500">
+		</figure>
+		<p>
+		If the only change you want to make is your choice of search engine, there are a few recommendations that have been made in that area as well. The top recommendation for search engines is <a href="https://www.startpage.com/">Startpage</a>, a search engine based in the Netherlands. Startpage delivers the same results as Google, but with extra measures in place to preserve privacy. Another good recommendation is <a href="https://duckduckgo.com/">DuckDuckGo</a>, a search engine based in the US. DuckDuckGo uses its own engine to return results. Using either of these options will make your browsing more private as opposed to using a search engine like Google.
+		</p>
+		<figure>
+			<img src="protonmail.jpg" width="500">
+		</figure>
+		<p>
+		For email services, recommendations include <a href="https://protonmail.com/">ProtonMail</a> (a mail service hosted in Switzerland), <a href="https://tutanota.com/">Tutanota</a> (a mail service hosted in Germany), and <a href="https://www.startmail.com/">StartMail</a> (a mail service hosted in the Netherlands). All of these services are great alternatives to popular mail services like Gmail and Outlook. 
+		</p>
+		<figure>
+			<img src="mullvad.png" width="500">
+		</figure>
+		<p>
+		If using a VPN is desired, some recommended VPN services include <a href="https://mullvad.net/">Mullvad</a> (VPN service from Sweden), <a href="https://protonvpn.com/">ProtonVPN</a> (VPN service from Switzerland), and <a href="https://ivpn.net/">IVPN</a> (VPN service from Gibraltar). These VPN services utilize a variety of encryption methods to make your browsing more private and secure. However, it should be acknowledged that using a VPN while browsing will not make your browsing anonymous.
+		</p>
+	</article>
+      <footer>
+      <p id="credit">For more information and recommendations, go to <a href="https://www.privacytools.io/">Privacy Tools</a>.</p>
+</footer>
+   
+</body>
+</html>
